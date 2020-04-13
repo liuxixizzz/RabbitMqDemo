@@ -1,26 +1,25 @@
-package RoundRobin;
+package PublishSubscribe;
 
 import Units.RabbitMqConnectionFactory;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.MessageProperties;
 
-public class RoundRobinSend {
-    private static final String QUEUE_NAME = "Test_RoundRobinQuery";
+public class PsSend {
+    private static final String EXCHANGE_NAME = "Test_PSExchange";
 
     public static void main(String[] args) throws Exception {
         Connection connection = RabbitMqConnectionFactory.geyConnection();
         //1 通过connection创建一个Channel
         Channel channel = connection.createChannel();
-        //2.申明队列  1.队列名称 队列是不允许重复定义的  2.durability  持久性  3.
-        channel.queueDeclare(QUEUE_NAME, true, false, false, null);
+        //2.申明交换机
+        channel.exchangeDeclare(EXCHANGE_NAME, "fanout");
         //3 通过Channel发送数据
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 5; i++) {
             String msg = "RoundRobinQuery!  " + i;
             Thread.sleep(1000);
-            //1.   2.队列名称  3. 是否持久化消息
-            channel.basicPublish("", QUEUE_NAME, MessageProperties.PERSISTENT_TEXT_PLAIN, msg.getBytes());
+            //1.交换机   2.队列名称  3. 是否持久化消息
+            channel.basicPublish(EXCHANGE_NAME, "", null, msg.getBytes());
             System.out.println(msg);
         }
         //4 记得要关闭相关的连接
