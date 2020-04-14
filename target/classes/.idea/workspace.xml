@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d90a95-0dce-4c15-888f-8a2d31ea61f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Routing/RoutingRecv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Routing/RoutingRecv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Routing/RoutingSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Topic/TopicRecv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Topic/TopicRecv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Topic/TopicSend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RoundRobin/RoundRobinSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoundRobin/RoundRobinSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PublishSubscribe/PsSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PublishSubscribe/PsSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PublishSubscribe/PsSend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PublishSubscribe/PsSend.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,33 +30,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RoundRobin/RoundRobinSend.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Topic/TopicRecv2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="300">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsSend.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Topic/TopicSend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="475">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Topic/TopicRecv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="500">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -87,9 +90,17 @@
         <option value="$PROJECT_DIR$/src/main/java/RoundRobin/RoundRobinRecv.java" />
         <option value="$PROJECT_DIR$/src/main/java/RoundRobin/RoundRobinRecv2.java" />
         <option value="$PROJECT_DIR$/src/main/java/PublishSubscribe/RoundRobinRecv2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv2.java" />
         <option value="$PROJECT_DIR$/src/main/java/RoundRobin/RoundRobinSend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv2.java" />
         <option value="$PROJECT_DIR$/src/main/java/PublishSubscribe/PsSend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Routing/RoutingRecv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Routing/RoutingSend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Routing/RoutingRecv2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Topic/RoutingRecv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Topic/TopicRecv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Topic/TopicRecv2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Topic/TopicSend.java" />
       </list>
     </option>
   </component>
@@ -120,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,20 +162,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PublishSubscribe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMqDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMqDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="RoundRobin" type="462c0819:PsiDirectoryNode" />
+              <item name="Routing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -173,7 +176,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/PublishSubscribe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Topic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -183,9 +186,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Routing" />
       <recent name="RoundRobin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\RabbitMqDemo\src\main\java\Topic" />
       <recent name="D:\IdeaProjects\RabbitMqDemo\src\main\java\PublishSubscribe" />
       <recent name="D:\IdeaProjects\RabbitMqDemo\src\main\java\FailQueue" />
       <recent name="D:\IdeaProjects\RabbitMqDemo\src\main\java\RoundRobin" />
@@ -203,13 +208,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PsSend">
-    <configuration name="PsSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PublishSubscribe.PsSend" />
+  <component name="RunManager" selected="Application.TopicSend">
+    <configuration name="RoutingRecv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Routing.RoutingRecv2" />
       <module name="RabbitMqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PublishSubscribe.*" />
+          <option name="PATTERN" value="Routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundRobinRecv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RoundRobin.RoundRobinRecv" />
+    <configuration name="RoutingSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Routing.RoutingSend" />
       <module name="RabbitMqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RoundRobin.*" />
+          <option name="PATTERN" value="Routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundRobinRecv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RoundRobin.RoundRobinRecv2" />
+    <configuration name="TopicRecv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Topic.TopicRecv" />
       <module name="RabbitMqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RoundRobin.*" />
+          <option name="PATTERN" value="Topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundRobinSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RoundRobin.RoundRobinSend" />
+    <configuration name="TopicRecv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Topic.TopicRecv2" />
       <module name="RabbitMqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RoundRobin.*" />
+          <option name="PATTERN" value="Topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HolleWorld.send" />
+    <configuration name="TopicSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Topic.TopicSend" />
       <module name="RabbitMqDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HolleWorld.*" />
+          <option name="PATTERN" value="Topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PsSend" />
-        <item itemvalue="Application.RoundRobinSend" />
-        <item itemvalue="Application.RoundRobinRecv2" />
-        <item itemvalue="Application.RoundRobinRecv" />
-        <item itemvalue="Application.send" />
+        <item itemvalue="Application.TopicSend" />
+        <item itemvalue="Application.TopicRecv2" />
+        <item itemvalue="Application.TopicRecv" />
+        <item itemvalue="Application.RoutingSend" />
+        <item itemvalue="Application.RoutingRecv2" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +299,8 @@
       <workItem from="1586504732473" duration="3782000" />
       <workItem from="1586508568568" duration="645000" />
       <workItem from="1586509912949" duration="15000" />
-      <workItem from="1586740773553" duration="1094000" />
+      <workItem from="1586740773553" duration="6447000" />
+      <workItem from="1586828175817" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="init RabbitMqDemo">
       <created>1586507905668</created>
@@ -317,11 +323,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586509033593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="发布订阅Demo01">
+      <created>1586757595569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586757595570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17863000" />
+    <option name="totallyTimeSpent" value="25215000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -341,22 +354,22 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50082916" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4991708" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4991708" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="6" sideWeight="0.50082916" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32850778" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" show_stripe_button="false" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.23051225" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39933258" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.2271715" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32925472" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32850778" />
       <window_info anchor="bottom" id="Duplicates" order="12" weight="0.32925472" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32925472" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32850778" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -371,9 +384,50 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init RabbitMqDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="init RabbitMqDemo" />
+    <MESSAGE value="发布订阅Demo01" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布订阅Demo01" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils/RabbitMqConnectionFactory.java" />
@@ -473,16 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RoundRobin/RoundRobinSend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -490,10 +534,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/OpenSource/jdk-8u/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsSend.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PublishSubscribe/PsRecv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Routing/RoutingRecv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Routing/RoutingRecv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Routing/RoutingSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Topic/TopicRecv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Topic/TopicRecv2.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Topic/TopicSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
